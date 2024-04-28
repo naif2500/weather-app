@@ -1,16 +1,28 @@
-.container{
+body {
+    background-image: linear-gradient(135deg, #ff0000, #ff8000, #ffff00, #00ff00, #0000ff, #8000ff, #ff00ff);
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /* Example font-family */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; /* Hide any content that overflows the viewport */
+}
+
+.container {
     width: 607px;
     height: 629px;
-    margin: auto;
     margin-top: 75px;
+    margin-bottom: 75px;
     border-radius: 12px;
-    background-image: linear-gradient(180deg, #130754 0%, #3b2f80 100%);
-
+    background-color: rgba(128, 128, 128, 0.5);
 }
+
 .top-bar{
     display: flex;
     justify-content: center;
-    gap: 14px;
+    gap: 0px;
     padding-top: 60px;
 }
 .top-bar input{
@@ -20,7 +32,7 @@
     background: #ebfffc;
     border: none;
     outline: none;
-    border-radius: 40px;
+    border-radius: 20px;
     padding-left: 40px;
     color:#626262;
     font-size: 20px;
@@ -34,9 +46,8 @@
     width: 78px;
     height: 78px;
     background: #ebfffc;
-    border-radius: 40px;
+    border-radius: 10px;
     cursor:pointer;
-
 
 }
 .weather-temp{
