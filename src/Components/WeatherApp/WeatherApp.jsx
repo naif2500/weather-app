@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './WeatherApp.css'
 
 const WeatherApp = () => {
-    let api_key= "07e5e0efa1b63711cd20643a80e6e788";
+    let api_key= "";
     const [weatherIcon, setWeatherIcon] = useState(null); // State for weather icon
 
 
